@@ -1,0 +1,19 @@
+body {
+  margin: 0 !important;
+  font-family: 'Merriweather', serif !important;
+}
+*{
+  box-sizing: border-box !important;
+}
+*:focus,*.active {
+  outline: none !important;
+  box-shadow:none !important;
+}
+
+p{
+  margin: 0 !important;
+}
+ul{
+  list-style: none;
+  margin: 0 !important;
+}
