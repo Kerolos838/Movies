@@ -11,7 +11,7 @@ export default function MainNavbar({ search }) {
   return (
     <Navbar expand="lg" variant="dark" className="bg-dark">
       <Container>
-        <Navbar.Brand href="/">KK8</Navbar.Brand>
+        <Navbar.Brand href="/Movies">KK8</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
