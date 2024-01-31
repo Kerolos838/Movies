@@ -53,7 +53,7 @@ function App() {
         <Router>
           <Routes>
             <Route
-              path="/"
+              path="/Movies"
               element={
                 <CardList
                   movies={movies}
@@ -63,7 +63,7 @@ function App() {
               }
             />
 
-            <Route path="/KK8/Details/:title/:id" element={<PageDetails />} />
+            <Route path="/Movies/KK8/Details/:title/:id" element={<PageDetails />} />
           </Routes>
         </Router>
       </Container>
