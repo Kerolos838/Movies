@@ -68,7 +68,7 @@ export default function PageDetails() {
       </Row>
       <Row>
         <Col className="d-flex gap-3 my-3 p-3 justify-content-center align-items-center ">
-          <Link to="../">
+          <Link to="../Movies">
             <Button variant="danger" className=" fw-bold p-2 px-3">
               <FontAwesomeIcon icon={faArrowLeftLong} /> Go Back
             </Button>
